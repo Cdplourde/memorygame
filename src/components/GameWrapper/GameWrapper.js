@@ -3,7 +3,7 @@ import './GameWrapper.css'
 
 const GameWrapper = () => {
   return (
-    <h1>Hi!</h1>
+    <div></div>
   )
 }
 

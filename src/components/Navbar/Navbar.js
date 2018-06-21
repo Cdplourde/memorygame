@@ -1,9 +1,17 @@
 import React from 'react';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
-    <h1>Hi!</h1>
+    <nav className="navbar">
+      <ul>
+        <li className="brand">
+          <a href="/">Clicky Game</a>
+        </li>
+        <li className="">Click an image to begin!</li>
+        <li>Score: {props.score} | Top Score: {props.topScore}</li>
+      </ul>
+    </nav>
   )
 }
 
